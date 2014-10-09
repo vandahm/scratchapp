@@ -1,0 +1,5 @@
+@mixin heading {
+  color: $heading-color;
+  font-family: $sans-serif-font;
+  font-weight: bold;
+}

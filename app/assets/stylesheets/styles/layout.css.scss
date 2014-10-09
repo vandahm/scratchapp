@@ -1,0 +1,16 @@
+@import 'mixins/all';
+
+html {
+}
+
+body {
+  font-size: $base-font-size;
+  font-family: $serif-font;
+  color: $text-color;
+  max-width: 75ex;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  @include heading;
+}
