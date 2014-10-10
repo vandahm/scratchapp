@@ -1,5 +1,6 @@
 @import 'mixins/all';
 
-.fake-heading {
-  @include heading;  
+.alert-responsive {
+  display: none;
+  @include respond-to(md) { display: block; }
 }
