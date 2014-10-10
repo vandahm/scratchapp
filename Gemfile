@@ -18,3 +18,6 @@ gem 'haml'
 gem 'spring',        group: :development
 
 gem 'unicorn'
+
+# I guess I need this for some reason
+gem 'rails_12factor', group: :production
